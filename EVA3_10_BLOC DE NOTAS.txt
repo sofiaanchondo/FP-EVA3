@@ -1,0 +1,30 @@
+Microsoft Windows [Versión 10.0.26200.7171]
+(c) Microsoft Corporation. Todos los derechos reservados.
+
+C:\Users\Sofia>cd..
+
+C:\Users>cd..
+
+C:\>cd practicas
+
+C:\practicas>dir
+ El volumen de la unidad C es OS
+ El número de serie del volumen es: 963A-60FD
+
+ Directorio de C:\practicas
+
+14/11/2025  04:52 p. m.    <DIR>          .
+24/11/2025  10:56 p. m.               133 Prueba.java
+               1 archivos            133 bytes
+               1 dirs  393,445,371,904 bytes libres
+
+C:\practicas>javac Prueba.java
+
+C:\practicas>java prueba
+Error: Could not find or load main class prueba
+Caused by: java.lang.NoClassDefFoundError: prueba (wrong name: Prueba)
+
+C:\practicas>java Prueba
+Hola Mundo
+
+C:\practicas>"C:\Program Files\Java\jdk-25\bin"
